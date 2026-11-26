@@ -1,5 +1,4 @@
-# event1_audio_face
-
+# Wearable Social Assistive System
 XIAO ESP32-S3 Sense（OV3660）的語音事件與多臉關聯專案。每段 VAD 語音建立獨立 Event ID，將 16 kHz mono PCM16 RAW 音訊與 pre-roll 寫成 SD WAV，同時於開始及每 30 秒拍攝並處理多張人臉。PC 以 BLE 接收 JPEG、執行 InsightFace 辨識並保存 SQLite 關聯；iOS 套件提供 VAD 控制、Wi-Fi SD 匯出及明確刪檔功能。
 
 ## 目錄
