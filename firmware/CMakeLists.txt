@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+set(IDF_TARGET esp32s3 CACHE STRING "Target" FORCE)
+set(COMPONENTS main event_manager audio_pipeline wifi_sd_export)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(event1_audio_face)
